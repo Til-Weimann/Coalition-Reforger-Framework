@@ -1,0 +1,41 @@
+PS_GameModeCoop Lobby_CRF_Mode1 : "{51B31F162162217F}Prefabs/MP/Modes/Lobby/Lobby_CRF_Mode.et" {
+ components {
+  CRF_SafestartGameModeComponent "{610F4DC3E3FE2FC1}" {
+   m_iTimeLimitMinutes 60
+  }
+  CRF_SearchAndDestroyGameModeComponent "{61B83559FE2AAA6D}" {
+  }
+  SCR_TimeAndWeatherHandlerComponent "{60E1584A0997B92C}" {
+   m_iStartingHours 20
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{61B8355896C53AE9}" {
+     m_sWeatherPresetName "clear"
+     m_iStartingHour 20
+    }
+   }
+  }
+ }
+ coords 5665.759 171.963 6224.276
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{61B83558E942A4B7}" {
+   m_sFactionKey "RHS_RF_MSV"
+   m_iCount 30
+   m_iTime 120000
+   m_bWaveMode 1
+  }
+  PS_FactionRespawnCount "{61B83558D6D0AEB1}" {
+   m_sFactionKey "RHS_US_USMC"
+   m_iCount 30
+   m_iTime 120000
+   m_bWaveMode 1
+  }
+ }
+}
+$grp SCR_BaseTriggerEntity {
+ aSiteTrigger {
+  coords 5625.074 172.544 6199.381
+ }
+ bSiteTrigger {
+  coords 5805.016 156.742 5522.434
+ }
+}
