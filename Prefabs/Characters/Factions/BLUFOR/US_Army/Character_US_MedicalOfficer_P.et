@@ -1,11 +1,19 @@
-SCR_ChimeraCharacter : "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" {
+SCR_ChimeraCharacter : "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army_Old/Character_US_Medic_P.et" {
  ID "51FA8A5F10E81780"
  components {
+  CSI_CharacterComponent "{617A0517A9B25B23}" {
+   m_iStartingIcon Medic
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Medical Officer"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     PrefabsToSpawn + {
+      "{558117556F3880A8}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M9.et"
+     }
+    }
     ItemsInitConfigurationItem "{5538C29CBE93E810}" {
     }
    }
