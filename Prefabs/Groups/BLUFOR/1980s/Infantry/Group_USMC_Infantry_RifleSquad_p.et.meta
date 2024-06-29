@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{812133C703395C22}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RiflemanDemo_P.et"
+ Name "{FF4113C2FB4BCA7D}Prefabs/Groups/BLUFOR/1980s/Infantry/Group_USMC_Infantry_RifleSquad_p.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

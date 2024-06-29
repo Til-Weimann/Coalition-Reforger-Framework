@@ -1,8 +1,0 @@
-SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
- ID "0000000000000001"
- coords 3119.883 37.581 2501.293
- m_aUnitPrefabSlots {
-  "{D164278FD7D9C81A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_PL_P.et" "{0248B6CF048C50C5}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MedicalOfficer_P.et" "{3D5A0D4743D6A4BA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_FO_P.et"
- }
- m_sCustomNameSet "Platoon"
-}

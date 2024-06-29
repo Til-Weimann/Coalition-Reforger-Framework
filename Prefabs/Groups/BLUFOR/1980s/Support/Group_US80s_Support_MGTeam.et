@@ -139,7 +139,7 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  }
  coords 0 0 0
  m_aUnitPrefabSlots {
-  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{338256DA62A00BC4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MGRed_P.et" "{15B3378E3F2CEC20}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMGRED_P.et" "{2076F40035B91018}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MGGreen_P.et" "{01C1AC1B9F1F8FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMGGreen_P.et"
+  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{CA2EB3A73FABC625}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG_P.et"
  }
  m_bSetPlayable 1
 }
