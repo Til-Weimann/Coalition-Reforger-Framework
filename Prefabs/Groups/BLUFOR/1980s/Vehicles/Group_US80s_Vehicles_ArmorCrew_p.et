@@ -139,7 +139,7 @@ SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
  }
  coords 0 0 0
  m_aUnitPrefabSlots {
-  "{D1B688EADF76D196}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crewman_P.et" "{D1B688EADF76D196}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crewman_P.et"
+  "{BFE8759E04F56A22}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_VehicleCommander_P.et" "{D1B688EADF76D196}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_VehicleCrewman_P.et"
  }
  m_sCustomNameSet "Armor"
  m_bSetPlayable 1

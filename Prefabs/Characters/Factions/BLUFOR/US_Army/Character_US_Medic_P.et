@@ -1,11 +1,19 @@
 SCR_ChimeraCharacter : "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et" {
  ID "51FA8A5F10E81780"
  components {
+  CSI_CharacterComponent "{617A0517A9B25B23}" {
+   m_iStartingIcon Medic
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Medic"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+     }
+    }
     ItemsInitConfigurationItem "{5538C29CBE93E810}" {
      PrefabsToSpawn + {
       "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
